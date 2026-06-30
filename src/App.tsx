@@ -19,6 +19,7 @@ import PublicFormMonteurdaten from '@/pages/public/PublicForm_Monteurdaten';
 // <public:imports>
 // </public:imports>
 // <custom:imports>
+const TerminBuchenPage = lazy(() => import('@/pages/intents/TerminBuchenPage'));
 // </custom:imports>
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
                 <Route path="monteurdaten/:id" element={<MonteurdatenDetailPage />} />
                 <Route path="admin" element={<AdminPage />} />
                 {/* <custom:routes> */}
+                <Route path="intents/termin-buchen" element={<Suspense fallback={null}><TerminBuchenPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>
