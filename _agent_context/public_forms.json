@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "terminverwaltung",
+      "app_id": "6a438b105067be8e61ede88a",
+      "path": "/rest/apps/6a438b105067be8e61ede88a/records",
+      "allowed_fields": [
+        "termin_datum",
+        "auftragsart",
+        "beschreibung",
+        "erledigt"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Terminverwaltung — Formular"
+    },
+    {
+      "entity": "kundenverwaltung",
+      "app_id": "6a438b0adf0702ab92fe4ca1",
+      "path": "/rest/apps/6a438b0adf0702ab92fe4ca1/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "telefon",
+        "email",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "standort"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kundenverwaltung — Formular"
+    },
+    {
+      "entity": "monteurdaten",
+      "app_id": "6a438b0f0996cd2d134c788a",
+      "path": "/rest/apps/6a438b0f0996cd2d134c788a/records",
+      "allowed_fields": [
+        "monteur_vorname",
+        "monteur_nachname",
+        "monteur_telefon",
+        "monteur_notiz"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Monteurdaten — Formular"
+    }
+  ]
+}

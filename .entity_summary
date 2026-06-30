@@ -1,0 +1,5 @@
+- Terminverwaltung (terminverwaltung): termin_datum[date/datetimeminute], auftragsart[lookup/radio], kunde[applookup/select], monteur[applookup/select], beschreibung[string/textarea], erledigt[bool]
+  → kunde links to app_id 6a438b0adf0702ab92fe4ca1
+  → monteur links to app_id 6a438b0f0996cd2d134c788a
+- Kundenverwaltung (kundenverwaltung): vorname[string/text], nachname[string/text], telefon[string/tel], email[string/email], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], standort[geo]
+- Monteurdaten (monteurdaten): monteur_vorname[string/text], monteur_nachname[string/text], monteur_telefon[string/tel], monteur_notiz[string/text]

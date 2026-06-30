@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Terminverwaltung": {
+      "placeholders_set": 6,
+      "defaults_keys": ["termin_datum", "auftragsart", "erledigt"],
+      "computed_keys": [],
+      "reason": "Reine Verwaltungsdaten für Terminplanungen — keine numerischen Felder, keine Preise, keine berechenbaren Größen"
+    },
+    "Kundenverwaltung": {
+      "placeholders_set": 8,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Stammdaten-Entity (Adressen, Kontaktdaten) — keine numerischen Felder, keine Applookups, keine Berechnung sinnvoll"
+    },
+    "Monteurdaten": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Mitarbeiter-Stammdaten — nur Text und Telefon, keine Zahlfelder, keine Formeln möglich"
+    }
+  }
+}

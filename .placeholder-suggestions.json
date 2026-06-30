@@ -1,0 +1,26 @@
+{
+  "TerminverwaltungDialog.tsx": {
+    "termin_datum":   "Wann ist der Termin?",
+    "auftragsart":    "z. B. Wartung, Reparatur",
+    "kunde":          "Welcher Kunde?",
+    "monteur":        "Welcher Monteur?",
+    "beschreibung":   "Besonderheiten, Problembeschreibung, Anfahrtsinfo...",
+    "erledigt":       "Abhaken wenn fertig"
+  },
+  "KundenverwaltungDialog.tsx": {
+    "vorname":        "z. B. Max",
+    "nachname":       "z. B. Müller",
+    "telefon":        "z. B. 030 12345678",
+    "email":          "z. B. max@example.com",
+    "strasse":        "z. B. Hauptstraße",
+    "hausnummer":     "z. B. 42",
+    "plz":            "z. B. 10115",
+    "ort":            "z. B. Berlin"
+  },
+  "MonteurdatenDialog.tsx": {
+    "monteur_vorname":   "z. B. Klaus",
+    "monteur_nachname":  "z. B. Schmidt",
+    "monteur_telefon":   "z. B. 0173 1234567",
+    "monteur_notiz":     "Spezialgebiete, Verfügbarkeit, Notizen..."
+  }
+}
